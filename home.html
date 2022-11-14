@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<!-- background-color: #1C1C1C; -->
+<body style="width: 100%; display: flex; justify-content: center;">
+    <table class="table " style="text-align: center; width: 16% !important;  margin-top: 8% ; border-color: transparent; background-color: #1C1C1C; border-radius: 20px; " >
+        <tr>
+           <th id="txt" colspan="4" style="text-align: right; padding-top: 40%; font-weight: 300; font-size: 38px; color: white;" >0</th>
+        </tr>
+        <tr>
+          <th><button style="background-color: #979797;color: black;" id="ac">AC</button></th>
+          <th><button style="background-color: #979797;color: black;" id="b+-">+/-</button></th>
+          <th><button style="background-color: #979797; color: black;" id="b%">%</button></th>
+          <th><button class="func" style="" id="b:">÷</button></th>
+        </tr> 
+        <tr>
+            <th><button style=""  id="b7">7</button></th>
+            <th><button style="" id="b8">8</button></th>
+            <th><button style="" id="b9">9</button></th>
+            <th><button class="func" style="" id="bx">x</button></th>
+          </tr> 
+          <tr>
+            <th><button style=" " id="b4">4</button></th>
+            <th><button style="  " id="b5">5</button></th>
+            <th><button style="  " id="b6">6</button></th>
+            <th><button class="func" style="  " id="b-">-</button></th>
+          </tr> 
+          <tr>
+            <th><button style=" " id="b1">1</button></th>
+            <th><button style="  " id="b2">2</button></th>
+            <th><button style="  " id="b3">3</button></th>
+            <th><button class="func" style="  " id="b+">+</button></th>
+          </tr> 
+
+          <tr >
+            <th colspan="2"><button style="border-radius: 70px !important; height: 50px; width: 125px; border-color: transparent;" id="b0">0</button></th>
+            <th><button style="  " id="bd">.</button></th>
+            <th ><button id="eq" class="func" style="   margin-bottom: 10px;">=</button></th>
+          </tr> 
+      </table>
+</body>
+
+<style>
+    .func{
+        background-color: #FF9500;
+    }
+        button{
+
+        border-radius: 50% !important; 
+        height: 50px; 
+        width: 50px; 
+        border-color: transparent;
+        background-color: #505050;
+        color: white;
+
+        
+}
+    button:hover{
+        filter: brightness(85%);
+
+}
+
+table{
+    font-family: monospace;
+        font-size: 20px;
+        font-weight: 200 !important;
+}
+
+th{
+    
+}
+</style>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+<script src="./script.js" ></script>
+
+</html>
